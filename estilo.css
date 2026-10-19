@@ -1,0 +1,17 @@
+body
+{
+ font: 'Candela', 'verdana', 'Arial Narrow', sans-serif;
+ padding: 0px, 10px;
+ background-color: aqua;
+}
+h1
+{
+    font-family: 'Hobo std', 'Brush Script Std', Impact, Impact;
+    color: blue;
+    text-align: center;
+
+}
+p
+{
+    text-align: center;
+}

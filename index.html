@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+
+        <h1>solicitud de soporte tecnico</h1>
+        <form name="form-Principal" action="index.html" method="get">
+        <p>   
+        <label for="dispositivo">Tipo de dispositivo o sistema:</label><br>
+        <input type="text" id="dispositivo" name="dispositivo" required>
+        </p>
+        <br><br>
+        <p>
+        <label>Prioridad de la falla:</label><br>
+        <input type="radio" id="baja" name="prioridad" value="Baja">s
+        <label for="baja">Baja</label>
+        <input type="radio" id="media" name="prioridad" value="Media">
+        <label for="media">Media</label>
+        <input type="radio" id="alta" name="prioridad" value="Alta">
+        <label for="alta">Alta</label>
+        <br><br>
+        </p>
+        <p>
+
+        <label for="descripcion">Descripción del error:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="5" cols="40" required></textarea>
+        <br><br>
+        </p>
+        <p>
+
+        <label for="captura">Captura de pantalla:</label><br>
+        <input type="file" id="captura" name="captura">
+        <br><br>
+        </p>
+        <p>
+
+        <label for="so">Sistema operativo utilizado:</label><br>
+        <select id="so" name="so">
+            <option value="">Seleccione una opción</option>
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>macOS</option>
+            <option>Android</option>
+            <option>iOS</option>
+        </select>
+        <br><br>
+        </p>
+        <p>
+
+        <input type="submit" value="Enviar Incidencia">
+        <input type="reset" value="Limpiar">
+            </p>
+        
+        </form>
+    </body>
+</html>
